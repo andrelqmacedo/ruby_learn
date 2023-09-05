@@ -18,12 +18,11 @@ end
 
 #Examples:
 # The => indicates the expected return value:
- # convert_to_currency(15) => "$15"
-  # convert_to_currency(8) => "$8"
+# convert_to_currency(15) => "$15"
+# convert_to_currency(8) => "$8"
 
 def convert_to_currency(value)
-  converted = value.to_s
-  puts "$#{converted}"
+  "$#{value}"
 end
 
 convert_to_currency(15)
