@@ -4,4 +4,4 @@ end
 
 praise_persons("André", "Luiz")
 
-puts 10.between(0, 100)
+puts 10.between?(0, 100)
