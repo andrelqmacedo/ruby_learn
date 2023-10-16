@@ -11,7 +11,7 @@
   "editor.formatOnSave": false,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "off",
   "ruby.useBundler": true,
   "ruby.useLanguageServer": true,
   "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
