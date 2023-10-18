@@ -25,6 +25,6 @@ puts "This is the end of the program"
 # # candy = "Sour Patch Kids"
 # puts "I love eating #{candy}"
 
-# biding.break                     => It'll work the exact same way as the debugger
+# binding.break                     => It'll work the exact same way as the debugger
 
 # beverage = "Arizona Iced Tea"
