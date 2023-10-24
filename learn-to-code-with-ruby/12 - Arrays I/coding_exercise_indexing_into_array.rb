@@ -49,6 +49,7 @@ puts
 
 def first_letter_of_last_string(array)
   array[-1].slice(0)
+  #array[-1][0]
 end
 
 puts first_letter_of_last_string(["cat", "dog", "zebra"])
