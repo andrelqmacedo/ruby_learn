@@ -13,6 +13,8 @@ p sushi.first(1)
 # Otherwise, if we used the same method with an argument, the elements are going to be pulled out into an array!
 # As soon we provide an argument, the returned value will be an array of that number of elements
 
+puts
+
 p sushi.last
 p sushi.last(3)
 p sushi.last(1)
