@@ -15,6 +15,12 @@ def double_elements(numbers)
   return array2
 end
 
+# def double_elements(number)
+#   result = []
+#   values.each { | value | result.push(value*2) }
+#   result
+# end
+
 p double_elements([1, 2, 3, 4, 5])
 p double_elements([10, 20, 30])
 
@@ -37,6 +43,12 @@ def extract_long_words(strings)
   end
   return long_strings
 end
+
+# def extract_long_words(elements)
+#   long_ones = []
+#   elements.each {|element| long_ones.push(element) if element.lenght > 7  }
+#   long_ones
+# end
 
 p extract_long_words(["spaghetti", "penne", "fettuccine", "ziti"])
 p extract_long_words(["lasagna", "ravioli", "cannelloni", "tagliatelle"])
