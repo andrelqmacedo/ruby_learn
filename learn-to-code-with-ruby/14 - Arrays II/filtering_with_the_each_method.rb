@@ -10,5 +10,7 @@ fives.each do | n |
   end
 end
 
+# fives.each { | n | evens.push(n) if n.even? }
+
 p fives
 p evens
