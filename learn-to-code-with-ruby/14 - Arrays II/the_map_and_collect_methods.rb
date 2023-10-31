@@ -1,6 +1,8 @@
 # map/collect - create a new array by performing a consistent operation on all elements
 # from an original array
 
+# We use map/collection when we want to generate an array the same lenght of the original array
+
 # This methods are aliases one to another - wich means they work in the exact same way under the hood
 
 birds = ["Eagle", "Sparrow", "Pigeon", "Hawk", "Penguin"]
