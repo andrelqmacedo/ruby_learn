@@ -9,6 +9,7 @@
 
 def reverse_all(elements)
   elements.map {|element| element.reverse}
+  #elements.collect {|element| element.reverse} do the same thing
 end
 
 p reverse_all(["cat", "bat", "tub"])
@@ -33,6 +34,7 @@ p words_with_letter(["cat", "bat", "tub"], "a")
 p words_with_letter(["cat", "bat", "tub"], "u")
 p words_with_letter(["cat", "bat", "tub"], "z")
 
+puts
 # Define an evens_and_odds method that accepts an array of numbers.
 # The method should segment the array into two arrays.
 # The first array should contain the even numbers.
