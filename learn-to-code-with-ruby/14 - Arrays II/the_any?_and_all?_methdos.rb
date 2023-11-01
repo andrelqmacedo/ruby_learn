@@ -11,3 +11,5 @@ p sports.any? { |sport| sport.length == 12 } #false
 
 p sports.all? {|sport| sports.length < 100 }
 # It's true that all elements in the sport array have less than 100 charecters
+p sports.all? {|sport| sports.length < 10 }
+# As not all elements satisfies the condition, the all? method will return false
