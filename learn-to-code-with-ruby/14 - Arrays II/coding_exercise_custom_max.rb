@@ -29,3 +29,15 @@ p custom_max([434.12, 723.99, 84.12, 649.92])  #=> 723.99
 p custom_max([8, 10, 2, 1, 19, 4])             #=> 19
 p custom_max(["Tree", "Elm", "Zebra"])         #=> "Zebra"
 p custom_max([])                               #=> nil
+
+
+# def custom_max (elements)
+#   return nil if elements.length == 0
+#   max = elements[0]
+#   elements.each do |element|
+#      if element > max
+#        max = element
+#      end
+#   end
+#   max
+# end
