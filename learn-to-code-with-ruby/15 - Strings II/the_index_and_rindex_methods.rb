@@ -22,6 +22,8 @@ p fact.index("e", 3)
 
 
 # Otherwise, the 'rindex' method is the reverse of the index method, i.e., it's going to start from the end
-# of the string and search backwards and give you the index of the first match, starting from the end.
+# of the string and search backwards and give you the index of the first match, starting from the end, but
+# counted relative to the beginning of the string.
+# The index position that you get as a return will always be from the start of the string, from index position zero.
 
 p fact.rindex("e")
