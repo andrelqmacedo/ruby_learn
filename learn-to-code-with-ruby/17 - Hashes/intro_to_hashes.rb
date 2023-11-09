@@ -25,6 +25,7 @@ puts
 empty_array = []
 p empty_array
 puts empty_array.class
+puts
 
 # The hash has many methods in common with other objects we alredy studied. Examples:
 
