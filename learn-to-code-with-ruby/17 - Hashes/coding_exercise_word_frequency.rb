@@ -32,3 +32,12 @@ end
 p word_frequency("blue red blue green")  #=> {"blue"=>2, "red"=>1, "green"=>1}
 p word_frequency("a land far far away")  #=> {"a"=>1, "land"=>1, "far"=>2, "away"=>1}
 p word_frequency("")                     #=> {}
+
+
+# CHEAT CODE
+# In new versions of Ruby, the array has a special method called 'tally' which counts how many times each element occurs within an array
+# and as a hash and it returns that hash
+
+def word_frequency(text)
+  text.split(" ").tally
+end
