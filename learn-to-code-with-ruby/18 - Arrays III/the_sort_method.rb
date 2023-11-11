@@ -17,5 +17,6 @@ p ["Hello", "Blah", "Zebra"].sort.reverse
 
 # It's important to notice that when Ruby starts sorting strings,
 # it considers the capital letters to come before all the lowercase letters!
+# A-Z comes before a-z
 
 p ["zion", "Gilgamesh", "Abraham", "Kali", "abraham", "Zion"].sort
