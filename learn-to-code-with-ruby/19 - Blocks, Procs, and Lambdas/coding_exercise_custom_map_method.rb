@@ -11,6 +11,17 @@ def custom_map(elements)
   returned_array
 end
 
+# def custom_map(elements)
+#   i = 0
+#   results = []
+#   while i< elements.lenght
+#     result = yield(elements[i])
+#     results.push(result)
+#     i += 1
+#   end
+#   results
+# end
+
 
 # Examples:
 # The => indicates the expected return value
