@@ -8,4 +8,8 @@ Guitar.new # instantiate a new Guitar object.
 
 acoustic = Guitar.new
 electric = Guitar.new
-hybrid =    Guitart.nwe
+hybrid =    Guitar.new
+
+puts acoustic
+puts electric
+puts hybrid
