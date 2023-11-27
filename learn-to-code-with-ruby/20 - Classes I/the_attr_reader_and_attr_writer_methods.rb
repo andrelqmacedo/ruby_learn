@@ -44,3 +44,6 @@ p guitar.price
 
 guitar.price = 10_000
 p guitar.price
+
+# So, we declare 'attr_reader' e 'attr_writer', typically placing it at the top of our class, and we give it
+# sequential symbol arguments, representing the instance variables that we want to define getters and setters methods for.
