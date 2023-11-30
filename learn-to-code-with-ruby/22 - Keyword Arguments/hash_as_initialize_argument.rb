@@ -36,3 +36,16 @@ p senator.age
 p senator.occupation
 p senator.hobby
 p senator.birthplace
+
+# This approach is advantegeous because:
+#   1. We immediately have context as far as what value corresponds to what. Now we know that "Banker" is specifically the
+#   occupation, and fishing is specically the hobby, because these values are written side by side with their hash keys.
+#   2. Another advantage is, because we are using a hash, we are no longer committed to a single parameter list. We are
+#   not obligated to provide five parameters in order, because we are acessing a hash by a key, and a key is just an unordered
+#   label or identifier, so it doesn't matter the order we write these key value pairs.
+
+# But here's still some problems with using a hash:
+#   a. The first problem is that we can simply forget to provide a key. And that will ensure that that variable is instanciated
+#   with a 'nil' value
+#   b. The second problem is typos, because if we do not provide the correct 'key' name, we'll introduce another
+#   'nil' value.
