@@ -23,3 +23,7 @@ end
 
 puts Square.area(10)
 puts Rectangle.area(10, 5)
+
+# With the use of modules, there's no possibility of name collision, because the modules serves as different
+# address to this methods, so there's no problem with methods with the same name, as long as they are declared/nested within
+# different modules
