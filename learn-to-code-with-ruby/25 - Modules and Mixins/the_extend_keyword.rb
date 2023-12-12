@@ -22,3 +22,7 @@ end
 
 puts Dog.who_am_i
 puts Warehouse.who_am_i
+
+# But, if we instanciate a new dog, for example, and try to call the 'who_am_i' method on the said instance,
+# we're going to get an undefined method error, because 'who_am_i" does not exist as an instance method for a dog object
+# it exits only as a class method for the Dog class.
