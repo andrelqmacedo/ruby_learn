@@ -15,3 +15,7 @@ end
 puts sub(3, 5)
 puts sub(3, "5")
 puts sub(nil, nil)
+
+# We use the 'retry' keyword on the 'rescue' section of the code, to run again the "begin" part of the code, but be
+# aware, there's a chance that, if the problem/error has not been correctly solved, it's possible to enter into a
+# infinite loop.
