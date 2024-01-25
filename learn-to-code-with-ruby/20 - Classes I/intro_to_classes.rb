@@ -1,4 +1,4 @@
-# Classes - AS class is a blueprint/template for creating objects, Ruby's built-in classes includes
+# Classes - As class is a blueprint/template for creating objects, Ruby's built-in classes includes
 # Array, Hash and String.
 
 # The goal of Object-Oriented Programming (OOP) is to model real-world concepts as objects, to represent all
