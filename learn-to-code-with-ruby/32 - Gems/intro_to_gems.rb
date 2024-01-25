@@ -49,7 +49,7 @@
       # The second argument, after the comma, is another string where we
       # can write the specific version number that we want to declare.
                 # gem "faker", "3.2.2"
-      # Before the version number, in order to add flexibility, we can put
+      # Before the version number, in order to add flexicd ..bility, we can put
       # a tilde (~) and a greater then sign (>) and add a space. This
       # essentially says "this version or any version higher within this level of specificity".
       # It's important to notice that as we specify the 3 numbers of the version number
